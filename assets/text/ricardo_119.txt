@@ -1,0 +1,41 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc,'....'.':cc;;:oxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxd;.  .....          .,cdxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxl   ................... .cxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. ....................... ,xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxo .'....................... :xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc .,'.',,,;,'..............  xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,.',...'',;:,'............. .xxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxo'.',,'..'',,,,,,'''........  cxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'..';;,,,;::;;,,''.........  'xxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,.',;;;,;:ccc:;,'';:,......  oxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,.',;,',;:ccc;;,',cc:;'...  .xxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..;::;;:ccccc;,'',;:;'. .;;,lxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..;ccccc:::;;,'.',;;'. ,xxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc.';cllc::;,,'.',;;,'. oxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx;..,:;;;,,,,''',;;;,'. :xxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxdc;''.'''.....'':c:  ..'',,,,,,'',::;,'.   cxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxo;cxxxxxdl'.......'''''........    .....''',;cc:;'..   ,xxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxo...'lxl;. ...',,,,;;;;;,,'...''.. .....';::cccc;,'..  'dxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxx..;c;.. ...',,;;;;;;;;;,,,''''........',,;::ccc;,''.. 'dxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxd'.;:c:,...',,;;;::;;;;;,,,,''''.......',::;;:c:;,'''''...;oxxxxxxxxxxxxxxxxxxxxxx
+xxxxl;..':c:,'.'',;;:::::::::::;;;,,,'''''...';:ll:::;,,,,'',,,'..,lxxxxxxxxxxxxxxxxxxxx
+xd'.....;clc;,,'',,;:::::::::cccc::;;,,,,,'''',;coc::;;:;,,,,;:::,'..;oxxxxxxxxxxxxxxxxx
+l..',;,,,;:ccccc;,,;:::;''.',;clllcc::;;,,,,,,,,,,;:;,,,,''''',;;;;;,...lxxxxxxxxxxxxxxx
+'.,:ccc:;,,;:clol:;;::;;'..',;:ccccc:::::;;;;;;;;,..''''''''....'''''... 'lxxxxxxxxxxxxx
+.,:ccclcc:;,,;:cllc::::;,...,,;::cccccccc:::::::;;,,,,,,,''''''.............;lxxxxxxxxxx
+.;:cccccccc:;;;:clolc:;;'...',;::ccllllllcccc::::;,,,,,,,,,,,,,'''.....'''.....'lxoc;'':
+.;:::::ccllccccloolc:;,'.  ..',;::ccloddoollcccc::;;;;;;;;;;;;;;;,,,''.'''',,''.....''.'
+.';::::::cclllllc:;,,'..    ..',;::ccloddoollccc:;::::::::::::::::;,,''''''',,;;,,;;;'.,
+ .',;:::::cccclc;,'.......  ...',;;::cllooollccc;;;;:::::::::::ccc:;;,,'',,,,;;::::;,. o
+ ...',;:c:::;;;,..,;. .....   ..',;;::cclllllccc;;;;:::cclllc:;;,,''''',,,,;;::::::;'. o
+ .....',;:;,'...,oxxo.......   ..'',,;:cccllc::;,,;:::ccccc:;,,'....',;;:::::cccc::;'..x
+ .''''''''... ;oxxxxx; .......  ...'',,;;;;;;;;,',,;::cc::;,''........,;:cccccccc::,. :x
+ .'''''.... ;dxxxxxxxc    ..........'',;::;;coc,'',;;;;;;,,'....      ..,;:cccccc::,. cx
+....'.....,oxxxxxxxxxd'   .......'''',,;clc:::;,,,,,,''''....         ..',:cccccc:;,. ,x
+c ......:dxxxxxxxxxxxxd   ........'',,,;:lc::;,,;;;,'.......          ...',;::ccc::,...x
+x;....;dxxxxxxxxxxxxxxc  ........'',,;:clcccl:;;:cll:,'....     ,l,  ......',;;::::;'..x
+xxxxxxxxxxxxxxxxxxxxxx,  .......'',,;:clc::c:;;;;:cc:,'....     oxx;  .....''''',;,'. ,x
+xxxxxxxxxxxxxxxxxxxxxx'  ......''',,;;:c::::,,,,;;:;,''.....    xxxx, ......'''''''.. cx
+xxxxxxxxxxxxxxxxxxxxxx.  ......''',,;;:c:::;'',,;cl:;'''....   'xxxxd. .......',,'... cx
+xxxxxxxxxxxxxxxxxxxxxx. .  .. .......'''''........'........    cxxxxxd,....  ...'... .ox
+xxxxxxxxxxxxxxxxxxxxxxxxxxo:,,'..',,,,,,,,,,,,:::cc:::'....,:lxxxxxxxxxxxxxd:'. ....cxxx

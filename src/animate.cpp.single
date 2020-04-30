@@ -1,0 +1,61 @@
+/**
+ * Copyright (c) 2020 Ramdhan Firmansyah
+ * File              : animate.cpp
+ * Author            : Cvar1984 <gedzsarjuncomuniti@gmail.com>
+ * Date              : 30.04.2020
+ * Last Modified Date: 30.04.2020
+ * Last Modified By  : Cvar1984 <gedzsarjuncomuniti@gmail.com>
+ */
+#include <ncurses.h>
+#include <unistd.h>
+#include <vector>
+#include <string>
+#include <sstream>
+#include <fstream>
+#include <array>
+using std::vector;
+using std::string;
+using std::ifstream;
+using std::stringstream;
+
+int main(void)
+{
+    initscr();
+    //cbreak();
+    //noecho();
+    curs_set(0); // hide cursors
+
+    vector<string> listAnimation = {
+        "../assets/text/a.txt",
+        "../assets/text/b.txt",
+        "../assets/text/ricardo_0.txt"
+    };
+    
+    std::vector<string> animation; // big data vector
+
+    for(int x = 0; x < listAnimation.size(); x++) {
+        ifstream file;
+        file.open(listAnimation[x]); // open fstream listAnimation
+        stringstream buff;
+        buff << file.rdbuf(); // assign to stringstream buffer
+        file.close(); // close ifstream
+        string frame;
+        frame = buff.str(); // create frame of string from stringstream buffer
+        animation.push_back(frame); // stack frame to vector animation
+        //animation[x] = frame; // stack frame to vector animation
+        //animation = {"hello1","hello2"}; // stack frame to vector animation
+    }
+    
+    WINDOW *win = newwin(0, 0, 0, 0); // full screen
+
+    for(int x = 0; x < animation.size(); x++) {
+        mvprintw(0, 0, animation[x].c_str()); // print all frame
+        refresh(); // refresh screen
+        sleep(1);
+        clear(); // clear screen
+    }
+    
+    wrefresh(win); // refresh window
+    endwin(); // close window
+    return 0;
+}
