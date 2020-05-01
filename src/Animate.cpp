@@ -20,21 +20,32 @@ using std::ifstream;
 using std::stringstream;
 
 class Animation {
+
     protected:
-        vector<string> listAnimation;
+
         vector<string> animation; // big data vector
+
     public:
-        void generateList(vector<string> listAnimation)
+
+        vector<string>listFrame;
+
+        void generateWindow(int x, int y, int s_x, int s_y)
         {
-            this->listAnimation = listAnimation;
+            initscr();
+            cbreak();
+            noecho();
+            curs_set(0); // hide cursors
+            WINDOW *win = newwin(x, y, s_x, s_y); // full screen
+            wrefresh(win); // refresh window
+
         }
 
         bool generateFrame()
         {
-            for(int x = 0; x < (int)this->listAnimation.size(); x++) {
+            for(int x = 0; x < (int)this->listFrame.size(); x++) {
                 ifstream file;
-                file.open(this->listAnimation[x]); // open fstream listAnimation
-                
+                file.open(this->listFrame[x]); // open fstream listFrame
+
                 if(!file) {
                     return false;
                 }
@@ -49,13 +60,19 @@ class Animation {
             return true;
         }
 
-        void play()
+        void play(int speed)
         {
             for(int x = 0; x < (int)this->animation.size(); x++) {
                 mvprintw(0, 0, this->animation[x].c_str()); // print all frame
                 refresh(); // refresh screen
-                usleep(100000);
+                usleep(speed);
                 clear(); // clear screen
             }
+        }
+
+        void closeWindow()
+        {
+            endwin(); // close window
+
         }
 };

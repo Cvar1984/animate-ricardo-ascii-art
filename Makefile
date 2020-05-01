@@ -1,4 +1,4 @@
-CXXFLAGS =-Wall -Wextra -Werror -g -I.
+CXXFLAGS =-Wall -Wextra -Werror -s -I.
 LDFLAGS =-lncurses
 SOURCES ?=src
 
