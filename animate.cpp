@@ -16,6 +16,9 @@ using std::endl;
 int main(void)
 {
 
+    /**
+     * height, width, strart height, start width
+     */
     Animation app(0, 0, 0, 0); // full size
 
     vector<string> listFiles;
