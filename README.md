@@ -4,5 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Animate ricardo milos on your terminal
+## todo
+- add music on the background
 
 ![Ricardo](assets/images/ricardo.gif)
