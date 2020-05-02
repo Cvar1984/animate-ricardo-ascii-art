@@ -16,7 +16,7 @@ using std::endl;
 int main(void)
 {
 
-    Animation app;
+    Animation app(0, 0, 0, 0); // full size
 
     vector<string> listFiles;
     string path;
@@ -28,14 +28,10 @@ int main(void)
         listFiles.push_back(path);
     }
 
-    app.listFrame = listFiles;
-    app.generateWindow(0, 0, 0, 0);
-
-    if(app.generateFrame()) {
+    if(app.generateFrame(listFiles)) {
         while(true) {
             app.play(80000); // speed in ms
         }
-        app.closeWindow();
     }
     else {
         cerr << "Cannot generate frame, file missing" << endl;

@@ -24,27 +24,27 @@ class Animation {
     protected:
 
         vector<string> animation; // big data vector
+        vector<string> frame;
+        WINDOW *win;
 
     public:
 
-        vector<string>listFrame;
-
-        void generateWindow(int x, int y, int s_x, int s_y)
+        Animation(int x, int y, int s_x, int s_y)
         {
             initscr();
             cbreak();
             noecho();
             curs_set(0); // hide cursors
-            WINDOW *win = newwin(x, y, s_x, s_y); // full screen
-            wrefresh(win); // refresh window
+
+            this->win = newwin(x, y, s_x, s_y); // full screen
 
         }
 
-        bool generateFrame()
+        bool generateFrame(vector<string> frame)
         {
-            for(int x = 0; x < (int)this->listFrame.size(); x++) {
+            for(int x = 0; x < (int)frame.size(); x++) {
                 ifstream file;
-                file.open(this->listFrame[x]); // open fstream listFrame
+                file.open(frame[x]); // open fstream frame
 
                 if(!file) {
                     return false;
@@ -70,9 +70,11 @@ class Animation {
             }
         }
 
-        void closeWindow()
+        ~Animation()
+
         {
             endwin(); // close window
+            wrefresh(this->win); // refresh window
 
         }
 };
