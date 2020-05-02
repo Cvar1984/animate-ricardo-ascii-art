@@ -36,8 +36,7 @@ class Animation {
             noecho();
             curs_set(0); // hide cursors
 
-            this->win = newwin(x, y, s_x, s_y); // full screen
-
+            this->win = newwin(x, y, s_x, s_y);
         }
 
         bool generateFrame(vector<string> frame)
@@ -54,7 +53,6 @@ class Animation {
                 buff << file.rdbuf(); // assign to stringstream buffer
                 file.close(); // close ifstream
                 string frame = buff.str(); // create frame of string from stringstream buffer
-
                 this->animation.push_back(frame); // stack frame to vector animation
             }
             return true;
@@ -71,10 +69,8 @@ class Animation {
         }
 
         ~Animation()
-
         {
-            endwin(); // close window
             wrefresh(this->win); // refresh window
-
+            endwin(); // close window
         }
 };
