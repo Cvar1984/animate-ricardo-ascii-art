@@ -8,7 +8,7 @@
  */
 
 #include <iostream>
-#include "src/Animate.cpp"
+#include <animate.hpp>
 
 using std::cerr;
 using std::endl;
@@ -19,7 +19,7 @@ int main(void)
     /**
      * height, width, strart height, start width
      */
-    Animation app(0, 0, 0, 0); // full size
+    Animation app(0, 0); // full size
 
     vector<string> listFiles;
     string path;
