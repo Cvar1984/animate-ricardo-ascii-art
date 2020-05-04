@@ -1,8 +1,7 @@
-CXXFLAGS =-Wall -Wextra -Werror -s -I.
+CXXFLAGS =-Wall -Wextra -Werror -s -I./include
 LDFLAGS =-lncurses
-SOURCES ?=src
 
-animate: $(SOURCES)/Animate.cpp
+animate: animate.cpp
 
 clean:
 	rm -f animate
