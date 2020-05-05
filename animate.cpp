@@ -16,16 +16,21 @@ using std::endl;
 int main(void)
 {
 
-    /**
-     * height, width, strart height, start width
-     */
-    Animation app(0, 0); // full size
+    Animation app(true); // colors, height, width
 
     vector<string> listFiles;
     string path;
-
-    for(int x = 0; x < 153; x++) {
-        path = "assets/text/ricardo_";
+    /*
+     * yuno
+    for(int x = 0; x < 13; x++) {
+        path = "assets/text/yuno/yuno_";
+        path.append(std::to_string(x));
+        path.append(".txt");
+        listFiles.push_back(path);
+    }
+    */
+    for(int x = 0; x < 154; x++) {
+        path = "assets/text/ricardo/ricardo_";
         path.append(std::to_string(x));
         path.append(".txt");
         listFiles.push_back(path);

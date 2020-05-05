@@ -30,21 +30,30 @@ class Animation {
         int height, width, sheight, swidth;
 
     public:
+        bool colors;
 
-        Animation(int height, int width) 
+        Animation(
+                bool colors = false,
+                int height = 0,
+                int width = 0,
+                int sheight = 0,
+                int swidth = 0
+                )
         {
             initscr();
             cbreak();
             noecho();
             curs_set(0); // hide cursors
 
-            if(has_colors()) start_color();
+            if(colors && has_colors()) {
+                this->colors = true;
+                start_color();
+            }
 
             this->height = height;
             this->width = width;
-            this->sheight = height;
-            this->swidth = width;
-
+            this->sheight = sheight;
+            this->swidth = swidth;
             this->win = newwin(height, width, sheight, swidth);
         }
 
@@ -69,13 +78,13 @@ class Animation {
 
             for(int x = 0; x < size; x++) {
 
-                if(has_colors()) {
+                if(this->colors) {
                     init_pair(1, x, COLOR_BLACK);
                     wattron(this->win, A_BOLD);
                     wattron(this->win, COLOR_PAIR(1));
                 }
 
-                mvwprintw(this->win, height, width, this->animation[x].c_str()); // print all frame
+                mvwprintw(this->win, this->sheight, this->swidth, this->animation[x].c_str()); // print all frame
                 wrefresh(this->win); // render to the screen
                 usleep(speed);
             }
