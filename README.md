@@ -2,6 +2,7 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/Cvar1984/animate-ricardo-ascii-art/badge)](https://www.codefactor.io/repository/github/cvar1984/animate-ricardo-ascii-art)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![C/C++ CI](https://github.com/Cvar1984/animate-ricardo-ascii-art/workflows/C/C++%20CI/badge.svg)
 
 Animate ricardo milos and other animation on your terminal
 ## todo
